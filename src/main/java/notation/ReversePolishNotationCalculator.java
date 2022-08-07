@@ -12,7 +12,7 @@ public class ReversePolishNotationCalculator {
 
         while (index != parts.length) {
 
-            if (parts[index].isBlank()) {
+            if (parts[index].isEmpty()) {
                 index++;
                 continue;
             }
